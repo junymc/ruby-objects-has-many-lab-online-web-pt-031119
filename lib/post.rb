@@ -12,4 +12,8 @@ class Post
       self.author.name
     end
 
+    def self.all
+      @@all
+    end
+
   end

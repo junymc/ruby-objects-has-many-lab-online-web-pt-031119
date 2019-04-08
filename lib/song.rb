@@ -12,6 +12,10 @@ class Song
       self.artist.name
     end
 
+    def all
+      @all << song
+    end
+
 
 
   end

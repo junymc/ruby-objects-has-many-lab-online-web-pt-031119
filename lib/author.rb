@@ -10,5 +10,6 @@ class Author
     def add_post(post, author)
       @posts << post
       post.author = self
+    end
 
 end
